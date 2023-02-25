@@ -1,0 +1,398 @@
+{
+	"dealId":"DE001",
+	"dealStatus":"ACTIVE",
+	"dealCompliantStatus":"NOT MET",
+	"customerid":"12355",
+	"customerName":"Camila Florez",
+	"documentNumber":"1058741272",
+	"documentType":"NIT",
+	"customerSegment":"Corporativo",
+	"dateOfEvaluation":"01-May-22",
+	"evalutionFromDate":"01-Apr-22",
+	"evalutionToDate":"30-Apr-22",
+	"evaluationFrequency":"Monthly",
+	"commitmentDetails":{
+		"segmentLevel":[
+			{
+				"segmentName": "Factoring",
+				"value":"Yes",
+				"compliance":[
+					{
+						"fromDate":"01-Dec-21",
+						"toDate":"31-Dec-21",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Jan-22",
+						"toDate":"31-Jan-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Feb-22",
+						"toDate":"28-Feb-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Mar-22",
+						"toDate":"31-Mar-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Apr-22",
+						"toDate":"30-Apr-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					}
+				]
+			},
+			{
+				"segmentName":"Loans",
+				"value":"Yes",
+				"compliance":[
+					{
+						"fromDate":"01-Dec-21",
+						"toDate":"31-Dec-21",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Jan-22",
+						"toDate":"31-Jan-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Feb-22",
+						"toDate":"28-Feb-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Mar-22",
+						"toDate":"31-Mar-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					},
+					{
+						"fromDate":"01-Apr-22",
+						"toDate":"30-Apr-22",
+						"actualValue":"No",
+						"complianceStatus":"Not Met"
+					}
+				]
+			}
+		],
+		"agreements":[
+			{
+				"agreementId":"12354",
+				"services": [
+					{
+						"serviceName":  "RecaudoCorresponsalBancario",
+						"numNonCompliance":"5",
+						"numOfTransaction":{
+							"value":"300",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"200",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"100",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"140",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"250",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"100",
+									"complianceStatus":"Not Met"
+								}
+							]
+						},
+						"averageBalance":{
+							"value":"500000",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"350000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"270000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"300000",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"400000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"400000",
+									"complianceStatus":"Not Met"
+								}
+							]
+						}
+					},
+					{
+						"serviceName":"RecaudoPSE",
+						"numNonCompliance":"5",
+						"numOfTransaction":{
+							"value":"300",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"140",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								}
+							]
+						},
+						"averageBalance":{
+							"value":"75000",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"35000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"35000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"35000",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"35000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"35000",
+									"complianceStatus":"Not Met"
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"agreementId":"97884",
+				"services": [
+					{
+						"serviceName": "RecaudoCorresponsalBancario",
+						"numNonCompliance":"5",
+						"numOfTransaction":{
+							"value":"300",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"250",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"150",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"130",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"80",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"250",
+									"complianceStatus":"Not Met"
+								}
+							]
+						},
+						"averageBalance":{
+							"value":"100000",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"25000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"23450",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"32000",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"30000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"30000",
+									"complianceStatus":"Not Met"
+								}
+							]
+						}
+					},
+					{
+						"serviceName": "RecaudoPSE",
+						"numNonCompliance":"5",
+						"numOfTransaction":{
+							"value":"600",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"450",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"300",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"380",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"50",
+									"complianceStatus":"Not Met"
+								}
+							]
+						},
+						"averageBalance":{
+							"value":"320000",
+							"compliance":[
+								{
+									"fromDate":"01-Dec-21",
+									"toDate":"31-Dec-21",
+									"actualValue":"170000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Jan-22",
+									"toDate":"31-Jan-22",
+									"actualValue":"170000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Feb-22",
+									"toDate":"28-Feb-22",
+									"actualValue":"250000",
+									"complianceStatus":"Met"
+								},
+								{
+									"fromDate":"01-Mar-22",
+									"toDate":"31-Mar-22",
+									"actualValue":"100000",
+									"complianceStatus":"Not Met"
+								},
+								{
+									"fromDate":"01-Apr-22",
+									"toDate":"30-Apr-22",
+									"actualValue":"100000",
+									"complianceStatus":"Not Met"
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

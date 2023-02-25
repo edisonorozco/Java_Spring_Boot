@@ -1,0 +1,383 @@
+{
+  "responseObj": {
+    "dealVersion": "1.0",
+    "dealID": "CD86",
+    "purpose": "F",
+    "dealDetails": [
+      {
+        "customerId": "ADD_USR_C13",
+        "customerName": "Software master",
+        "customerNIT": "890903938",
+        "legalRepresentativeId": "REPR_ID",
+        "legalRepresentativeName": "Edison Orozco",
+        "commissionAccountID": "ACCT123",
+        "commissionAccountType": "Saving",
+        "dealCreationDate": "1/12/2022",
+        "dealVersion": "1.0",
+        "customerSegment": "DEF1",
+        "dealID": "CD88",
+        "dealDescription": "CD88",
+        "dealSource": "Internal",
+        "dealCurrency": "USD",
+        "countryOfOperation": "TBMS",
+        "dealStatus": "Approved",
+        "dealOwner": "ADMIN",
+        "dealCreatedBy": "ADMIN",
+        "dealPeriodType": "Year",
+        "dealPeriod": "1",
+        "dealAdditionalInformation": "",
+        "grossDealEBVDealCurrency": "",
+        "netDealEBVDealCurrency": "",
+        "baseCurrency": "USD",
+        "grossDealEBVBaseCurrency": "",
+        "netDealEBVBaseCurrency": "",
+        "segmentLevelCommitments": [
+          {
+            "segmentAttributeName": "Factoring",
+            "committedValue": "Yes",
+            "discountPercentage": "1"
+          },
+          {
+            "segmentAttributeName": "Loans",
+            "committedValue": "Yes",
+            "discountPercentage": "2"
+          }
+        ],
+        "serviceLevelCommitments": [
+          {
+            "agreementId": "1234",
+            "pricingLetterServiceDet": [
+              {
+                "customerName": "ADD_USR_C13",
+                "accountName": "",
+                "productCode": "",
+                "productName": "",
+                "serviceCode": "DL_CHK1",
+                "serviceName": "DL_CHK1",
+                "includeInPricingLetter": "Y",
+                "serviceLevelWeightage": {
+                  "applicableDiscountPercentage": "15",
+                  "minDiscountPercentage": "10",
+                  "maxDiscountPercentage": "15",
+                  "serviceLevelAttributes": [
+                    {
+                      "serviceAttributeName": "NumOfTransaction",
+                      "committedValue": "100",
+                      "discountPercentage": "5"
+                    },
+                    {
+                      "serviceAttributeName": "AverageBalance",
+                      "committedValue": "1000000",
+                      "discountPercentage": "12"
+                    }
+                  ]
+                },
+                "pricingLetterCharges": [
+                  {
+                    "chargeCode": "DL_CKS1",
+                    "chargeDescription": "DL_CKS1",
+                    "chargeCategory": "Billable",
+                    "chargeModel": "One Time Charge",
+                    "afpCode": "",
+                    "revenueClass": "",
+                    "period": "0 to 1 Year(s)",
+                    "includeInPricingLetter": "Y",
+                    "standardCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "D",
+                        "rate": "15.0000",
+                        "tierGreaterthan": "0.00",
+                        "taxIndicator": "N"
+                      }
+                    ],
+                    "dealCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "",
+                        "rate": "15.0000",
+                        "tierGreaterthan": "MIN",
+                        "taxIndicator": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "customerName": "ADD_USR_C13",
+                "accountName": "",
+                "productCode": "",
+                "productName": "",
+                "serviceCode": "DL_CHK2",
+                "serviceName": "DL_CHK2",
+                "includeInPricingLetter": "Y",
+                "serviceLevelWeightage": {
+                  "applicableDiscountPercentage": "15",
+                  "minDiscountPercentage": "10",
+                  "maxDiscountPercentage": "15",
+                  "serviceLevelAttributes": [
+                    {
+                      "serviceAttributeName": "NumOfTransaction",
+                      "committedValue": "50",
+                      "discountPercentage": "6"
+                    },
+                    {
+                      "serviceAttributeName": "AverageBalance",
+                      "committedValue": "2000000",
+                      "discountPercentage": "13"
+                    }
+                  ]
+                },
+                "pricingLetterCharges": [
+                  {
+                    "chargeCode": "DL_CKC2",
+                    "chargeDescription": "DL_CKC2",
+                    "chargeCategory": "Billable",
+                    "chargeModel": "One Time Charge",
+                    "afpCode": "",
+                    "revenueClass": "",
+                    "period": "0 to 1 Year(s)",
+                    "includeInPricingLetter": "Y",
+                    "standardCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "D",
+                        "rate": "120.0000",
+                        "tierGreaterthan": "0.00",
+                        "taxIndicator": "N"
+                      }
+                    ],
+                    "dealCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "",
+                        "rate": "120.0000",
+                        "tierGreaterthan": "MIN",
+                        "taxIndicator": ""
+                      }
+                    ]
+                  },
+                  {
+                    "chargeCode": "DL_CKC1",
+                    "chargeDescription": "DL_CKC1",
+                    "chargeCategory": "Billable",
+                    "chargeModel": "Usage Charge",
+                    "afpCode": "",
+                    "revenueClass": "",
+                    "period": "0 to 1 Year(s)",
+                    "includeInPricingLetter": "Y",
+                    "standardCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "D",
+                        "rate": "100.0000",
+                        "tierGreaterthan": "0.00",
+                        "taxIndicator": "N"
+                      }
+                    ],
+                    "dealCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "",
+                        "rate": "100.0000",
+                        "tierGreaterthan": "MIN",
+                        "taxIndicator": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "customerName": "ADD_USR_C13",
+                "accountName": "",
+                "productCode": "CCUIOFR_P2",
+                "productName": "CCUIOFR_P2",
+                "serviceCode": "",
+                "serviceName": "",
+                "includeInPricingLetter": "",
+                "serviceLevelWeightage": {},
+                "pricingLetterCharges": []
+              },
+              {
+                "customerName": "ADD_USR_C13",
+                "accountName": "",
+                "productCode": "CCUIOFR_P2",
+                "productName": "CCUIOFR_P2",
+                "serviceCode": "CCUIOFR_SER002",
+                "serviceName": "CCUIOFR_SER002",
+                "includeInPricingLetter": "Y",
+                "serviceLevelWeightage": {
+                  "applicableDiscountPercentage": "15",
+                  "minDiscountPercentage": "10",
+                  "maxDiscountPercentage": "15",
+                  "serviceLevelAttributes": [
+                    {
+                      "serviceAttributeName": "NumOfTransaction",
+                      "committedValue": "300",
+                      "discountPercentage": "13"
+                    },
+                    {
+                      "serviceAttributeName": "AverageBalance",
+                      "committedValue": "1000000",
+                      "discountPercentage": "13"
+                    }
+                  ]
+                },
+                "pricingLetterCharges": [
+                  {
+                    "chargeCode": "P1002",
+                    "chargeDescription": "CCUIOFR_P2_USG",
+                    "chargeCategory": "Billable",
+                    "chargeModel": "Usage Charge",
+                    "afpCode": "",
+                    "revenueClass": "",
+                    "period": "0 to 1 Year(s)",
+                    "includeInPricingLetter": "Y",
+                    "standardCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "D",
+                        "rate": "5.0000",
+                        "tierGreaterthan": "-999999999999999.00",
+                        "taxIndicator": "Y"
+                      }
+                    ],
+                    "dealCharge": [
+                      {
+                        "currency": "USD",
+                        "minimumCharge": "0",
+                        "maximumCharge": "99999999",
+                        "additionalCharge": "",
+                        "basedOn": "Transaction Volume",
+                        "computationType": "Flat Computation - Rate Type",
+                        "rateType": "Rate",
+                        "tierUpto": "MAX",
+                        "creditDebit": "",
+                        "rate": "5.0000",
+                        "tierGreaterthan": "MIN",
+                        "taxIndicator": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ebvDet": [
+              {
+                "grossStdEBVDealCurrency": "",
+                "serviceDescription": "DL_CHK1",
+                "serviceCode": "DL_CHK1",
+                "grossDealEBVDealCurrency": "",
+                "grossStdEBVBaseCurrency": "",
+                "grossDealEBVBaseCurrency": "",
+                "netDealEBVDealCurrency": "",
+                "netStdEBVBaseCurrency": "",
+                "netDealEBVBaseCurrency": "",
+                "netStdEBVDealCurrency": ""
+              },
+              {
+                "grossStdEBVDealCurrency": "",
+                "serviceDescription": "DL_CHK2",
+                "serviceCode": "DL_CHK2",
+                "grossDealEBVDealCurrency": "",
+                "grossStdEBVBaseCurrency": "",
+                "grossDealEBVBaseCurrency": "",
+                "netDealEBVDealCurrency": "",
+                "netStdEBVBaseCurrency": "",
+                "netDealEBVBaseCurrency": "",
+                "netStdEBVDealCurrency": ""
+              },
+              {
+                "grossStdEBVDealCurrency": "",
+                "serviceDescription": "",
+                "serviceCode": "",
+                "grossDealEBVDealCurrency": "",
+                "grossStdEBVBaseCurrency": "",
+                "grossDealEBVBaseCurrency": "",
+                "netDealEBVDealCurrency": "",
+                "netStdEBVBaseCurrency": "",
+                "netDealEBVBaseCurrency": "",
+                "netStdEBVDealCurrency": ""
+              },
+              {
+                "grossStdEBVDealCurrency": "",
+                "serviceDescription": "CCUIOFR_SER002",
+                "serviceCode": "CCUIOFR_SER002",
+                "grossDealEBVDealCurrency": "",
+                "grossStdEBVBaseCurrency": "",
+                "grossDealEBVBaseCurrency": "",
+                "netDealEBVDealCurrency": "",
+                "netStdEBVBaseCurrency": "",
+                "netDealEBVBaseCurrency": "",
+                "netStdEBVDealCurrency": ""
+              }
+            ]
+          }
+        ],
+        "userField1": "",
+        "userField2": "",
+        "dealApprovedDate": "25/11/2022",
+        "childCustomerDetails": [
+          {
+            "customerId": "CHILD_CUST_1",
+            "customerNIT": "CHILD_CUST_1_NIT"
+          },
+          {
+            "customerId": "CHILD_CUST_2",
+            "customerNIT": "CHILD_CUST_2_NIT"
+          }
+        ]
+      }
+    ]
+  },
+  "sucessFailure": 0
+}
