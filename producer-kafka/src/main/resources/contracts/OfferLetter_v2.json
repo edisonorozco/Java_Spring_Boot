@@ -5,14 +5,14 @@
     "purpose": "F",
     "dealDetails": [
       {
-        "customerId": "ADD_USR_C13",
-        "customerName": "Software master",
+        "customerId": "242620",
+        "customerName": "NATACHA BRINCON",
         "customerNIT": "890903938",
-        "legalRepresentativeId": "REPR_ID",
-        "legalRepresentativeName": "Edison Orozco",
+        "legalRepresentativeId": "446180",
+        "legalRepresentativeName": "ANA JOSE CALLEJAS CORTES",
         "commissionAccountID": "ACCT123",
         "commissionAccountType": "Saving",
-        "dealCreationDate": "1/12/2022",
+        "dealCreationDate": "12/12/2024",
         "dealVersion": "1.0",
         "customerSegment": "DEF1",
         "dealID": "CD88",
@@ -365,7 +365,7 @@
         ],
         "userField1": "",
         "userField2": "",
-        "dealApprovedDate": "25/11/2022",
+        "dealApprovedDate": "12/12/2024",
         "childCustomerDetails": [
           {
             "customerId": "CHILD_CUST_1",
